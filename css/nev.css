@@ -1,0 +1,26 @@
+nav {
+    position: fixed;          /* 固定在视口 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;  /* 靠左对齐 */
+    gap: 80px;
+    padding: 30px 280px;          /* 左右留一些边距，不贴边 */
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.2s;
+    letter-spacing: 3px;
+}
+
+nav a:hover {
+    color: #aaa;
+}

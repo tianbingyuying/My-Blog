@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;      /* 改为 min-height，内容多时自动扩展 */
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    display: flex;
+    flex-direction: column; /* 纵向排列 */
+    justify-content: center;
+    align-items: center;
+}
