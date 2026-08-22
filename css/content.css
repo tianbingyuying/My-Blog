@@ -22,7 +22,6 @@
 }
 .container-left-content{
     padding: 15px;
-    border: 1px solid #f0f0f0;
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 20);
     background: rgb(18,14,14,0.8);
@@ -50,7 +49,6 @@
 .post-card-right {
     background: rgba(255, 255, 255, 0.9);   /* 白色背景 */
     border-radius: 16px;
-    border: 1px solid #f0f0f0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     padding-bottom: 18px;
 }
