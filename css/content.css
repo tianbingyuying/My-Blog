@@ -86,7 +86,7 @@
     object-fit: cover;    /* 铺满且不变形 */
 }
 .video-or-img-content{
-    color: #f0f0f0;
+    color: #ffffff;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -98,9 +98,9 @@
     font-weight: 700;
 }
 .video-or-img-content a {
-    color: #fff;               /* 文字白色 */
+    color: #908e91;               /* 文字白色 */
     text-decoration: none;     /* 去掉下划线 */
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
 }
 
