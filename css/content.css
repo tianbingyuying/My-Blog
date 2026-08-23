@@ -107,3 +107,22 @@
 .video-or-img-content a:hover {
     letter-spacing: 2px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .container-left,
+    .container-right {
+        width: 100%;
+        margin: 0;
+        padding: 16px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}
