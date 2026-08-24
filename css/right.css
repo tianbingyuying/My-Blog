@@ -1,0 +1,67 @@
+.right{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex: 13;
+    gap: 100px;
+    margin-top: 7.5vh;
+    height: auto;
+}
+.post-card-right {
+    position: relative;
+    margin-right: 30%;
+    background: rgba(255, 255, 255, 0.9);   /* 白色背景 */
+    border-radius: 16px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+
+.video-right,
+.img-right {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 16px;
+    display: block;
+}
+.video-right video,
+.img-right img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+    display: block;
+    object-fit: cover;    /* 铺满且不变形 */
+}
+.post-content{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+}
+.post-content p {
+    font-size: 45px;
+    color: #f0f0f0;
+    font-weight: 700;
+}
+.post-content a {
+    color: #908e91;               /* 文字白色 */
+    text-decoration: none;     /* 去掉下划线 */
+    font-weight: 700;
+}
+
+.post-content a:hover {
+    letter-spacing: 2px;
+}
+.label-right{
+    background: white;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #8e8e8e;
+}

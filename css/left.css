@@ -1,0 +1,37 @@
+.left{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;  /* 上下分块 */
+    flex: 7;                /* 各占一半宽度 */
+    gap: 15px;              /* 上下间距 */
+    position: relative;
+    margin-top: 7.5vh;
+    height: auto;
+}
+.post-card-notice{
+    position: absolute;
+    margin-left: 40%;
+    margin-right: 10%;
+    border: 1px solid #f0f0f0;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+.content-left{
+    padding: 15px;
+}
+.content-left h1{
+    color: #f0f0f0;
+    font-size: 20px;
+}
+.content-left p{
+    color: #f0f0f0;
+    margin-top: 7px;
+    font-size: 15px;
+    letter-spacing: 2px;   /* 每个字符之间增加 2px 距离 */
+    line-height: 1.8;      /* 行高为字体大小的 1.8 倍（推荐） */
+}
