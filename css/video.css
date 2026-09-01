@@ -22,8 +22,8 @@
     font-size: clamp(32px, 6vw, 70px);
     font-weight: 700;
     letter-spacing: -0.5px;
-    margin-bottom: 10px;
     color: mistyrose;
+    text-align: center;
     font-family: 'Rage Italic', serif;
 }
 #background-title h2{
@@ -34,7 +34,7 @@
 
 @media(max-width:768px){
     .background-video {
-        height:100vh;
+        height:100%;
         object-fit: cover;
     }
 }
