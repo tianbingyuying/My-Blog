@@ -6,7 +6,7 @@
     color: #8f8f8f;
 }
 
-#text{
+.text{
     color: #8e8e8e;
     font-size: 20px;
     line-height: 1.8;
@@ -14,13 +14,13 @@
     padding-left: 20px;
     padding-bottom: 20px;
 }
-#text a{
+.text a{
     color: #8e8e8e;              /* 文字白色 */
     text-decoration: none;     /* 去掉下划线 */
     font-size: 20px;
     font-weight: 700;
 }
-#text a:hover{
+.text a:hover{
     color: #000000;
     letter-spacing: 2px;
 }
