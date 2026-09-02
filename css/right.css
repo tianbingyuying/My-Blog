@@ -30,7 +30,7 @@
 .img-right img{
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 16px 16px 0 0;
     display: block;
     object-fit: cover;    /* 铺满且不变形 */
