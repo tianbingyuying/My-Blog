@@ -35,3 +35,9 @@
     letter-spacing: 2px;   /* 每个字符之间增加 2px 距离 */
     line-height: 1.8;      /* 行高为字体大小的 1.8 倍（推荐） */
 }
+
+@media screen and (max-width: 768px) {
+    .left{
+        display: none;
+    }
+}

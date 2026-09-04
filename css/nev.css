@@ -5,8 +5,8 @@ nav {
     width: 100%;
     display: flex;
     justify-content: flex-start;  /* 靠左对齐 */
-    gap: 80px;
-    padding: 30px 280px;          /* 左右留一些边距，不贴边 */
+    gap: clamp(20px, 8vw, 80px);
+    padding: 30px clamp(20px, 8vw, 220px);          /* 左右留一些边距，不贴边 */
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(8px);
     z-index: 1000;
@@ -15,7 +15,7 @@ nav {
 nav a {
     color: #f0f0f0;
     text-decoration: none;
-    font-size: 20px;
+    font-size: clamp(16px, 1.5vw, 24px);
     font-weight: 500;
     transition: 0.2s;
     letter-spacing: 3px;
@@ -23,4 +23,10 @@ nav a {
 
 nav a:hover {
     color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
 }
