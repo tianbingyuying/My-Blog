@@ -17,10 +17,17 @@
 .text a{
     color: #8e8e8e;              /* 文字白色 */
     text-decoration: none;     /* 去掉下划线 */
-    font-size: 20px;
     font-weight: 700;
 }
 .text a:hover{
     color: #000000;
     letter-spacing: 2px;
+}
+@media screen and (max-width: 768px) {
+    .title-text{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 12px;
+    }
 }
