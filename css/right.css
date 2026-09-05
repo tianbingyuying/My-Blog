@@ -67,9 +67,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .right{
+        gap: 0;
+    }
     .post-card-right {
         width: 70%;
-        margin: 0 auto;
+        margin: 30px auto;
     }
     .post-content a {
         font-size: 12px;
